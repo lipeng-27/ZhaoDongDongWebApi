@@ -37,6 +37,8 @@ namespace ZhaoDongDongWebApi.Controllers
         {
         }
 
+        [AcceptVerbs("GET", "POST")]
+        [HttpGet]
         public bool AccountValidation(string name, string password)
         {
             if(name=="philip" && password=="123456")
