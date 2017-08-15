@@ -43,7 +43,7 @@ namespace ZhaoDongDongWebApi.Controllers
         {
             if(name=="philip" && password=="123456")
                 return true;
-            if (name == "rythm" && password == "123456")
+            if (name == "rhythm" && password == "123456")
                 return true;
             return false;
         }
